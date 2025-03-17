@@ -1,35 +1,52 @@
-This project is a Java-based peer-to-peer trading system designed for second-hand items. It features a user-friendly Swing GUI that allows users to register, log in, search for items, and perform secure exchanges using a points-based system.
+# Second-Hand Exchange Platform
 
-Features
-User Management:
+This project is a **Java-based peer-to-peer trading system** designed for second-hand items. It features a user-friendly **Swing GUI** that allows users to register, log in, search for items, and perform secure exchanges using a points-based system.
 
-User registration and login via a simple GUI.
-Points system to manage user transactions.
-Item Categories:
+---
 
-Items are divided into three main categories: Clothes, Shoes, and Accessories.
-Each category is managed by specialized list classes (e.g., ClothesList, ShoesList, AccessoryList) for targeted operations.
-Exchange Mechanism:
+## Features
 
-Seamless item search via ID or keyword.
-Secure exchange process with point verification and confirmation dialogs.
-Object-Oriented Design:
+### User Management
+- **User Registration & Login:** Simple GUI for user enrollment.
+- **Points System:** Manage user transactions with a secure points mechanism.
 
-Uses abstraction, inheritance, interfaces, and polymorphism to create a modular and scalable architecture.
-Core interfaces (Item_Manager, ItemList_Manager) ensure consistent handling of different item types.
-Project Structure
-Model Classes:
+### Item Categories
+- **Categorization:** Items are divided into three main categories: *Clothes*, *Shoes*, and *Accessories*.
+- **Specialized Management:** Each category is managed by dedicated list classes (e.g., `ClothesList`, `ShoesList`, `AccessoryList`) for targeted operations.
 
-Item (base class) and its subclasses: Clothes, Shoes, Accessory
-Management Classes:
+### Exchange Mechanism
+- **Item Search:** Seamless search by ID or keyword.
+- **Secure Exchange:** Confirmations and point verification ensure safe transactions.
 
-ItemList and its specialized subclasses (ClothesList, ShoesList, AccessoryList)
-Student and StudentList for user management
-GUI Classes:
+### Object-Oriented Design
+- **Modular Architecture:** Utilizes abstraction, inheritance, interfaces, and polymorphism.
+- **Consistent Handling:** Core interfaces (`Item_Manager`, `ItemList_Manager`) provide a uniform method to handle different item types.
 
-Login_Frame for user login and enrollment.
-Home_Frame as the welcome screen.
-Exchange_Frame for item search and exchange operations.
-Main Entry:
+---
 
-Tester.java serves as the application entry point, initializing data and launching the GUI
+## Project Structure
+
+### Model Classes
+- **Item:** Base class for all items.
+- **Subclasses:** `Clothes`, `Shoes`, `Accessory` extend the base class.
+
+### Management Classes
+- **ItemList:** Generic item list.
+- **Specialized Lists:** `ClothesList`, `ShoesList`, `AccessoryList` for each item category.
+- **User Management:** `Student` and `StudentList` manage user data.
+
+### GUI Classes
+- **Login_Frame:** For user login and enrollment.
+- **Home_Frame:** Welcome screen post-login.
+- **Exchange_Frame:** Main interface for item search and exchange operations.
+
+### Main Entry
+- **Tester.java:** Serves as the application entry point, initializing data and launching the GUI.
+
+---
+
+## How to Run
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your_username/Secondhand-Exchange-Platform.git
